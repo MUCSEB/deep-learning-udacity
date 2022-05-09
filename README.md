@@ -1,9 +1,8 @@
 ## Udacity Deep Learning Nanodegree 
- 
 <!---
-![banner](https://github.com/MUCSEB/deep-learning/blob/main/deep_learning_banner.jpg)
--->
 ![banner](deep_learning_banner.gif)
+-->
+![banner](https://github.com/MUCSEB/deep-learning/blob/main/deep_learning_banner.gif)
 ## What is the aim of the repository?
 
 This repository is about my lessons learned during the nanodegree. Feel free to look around! \
