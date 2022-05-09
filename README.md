@@ -12,11 +12,11 @@ My favorite is the transfer learning part. I added an additional folder where tw
 You can supply your own images (style and target) and see what kind of art you can create :)
 
 ## How to run the code locally?
-- Create a virtual environment with all required libraries
-- Activate environment
-- Start jupyter notebook server
+- Create a virtual environment with all required libraries.
+- Activate environment.
+- Start jupyter notebook server.
 
-You will do something similar like this:
+You can do something like this:
 
 ```
 conda env create -f environment.yml
@@ -27,8 +27,25 @@ You can find the environment.yml in this repo as well.
 
 ## How to run the code on a server?
 Alternatively, you can also run jupyter notebook inside a container on a server (possibly with multiple gpus).
-- tbd: build file upload
-- tbd: build run command
-- tbd: browser access
+I assume you have docker installed.
+
+- Upload Dockerfile and requirement.txt to server. Choose a folder to work in.
+- Build docker image.
+- Run docker image (starts jupyter server automatically).
+- Open jupyter in browser.
+
+You can do something like this when you are in the target folder on the server:
+
+```
+docker build -t deep-learning .
+docker run -it --rm --gpus all --ipc=host -v $(pwd):/workspace -p 9998:9998 --name deep-learning deep-learning
+<ip-adress of your server>:9998
+```
+Access is token based. The token is displayed when you start the container. Look for __*?token=*__.
+
+Upload the desired files to the workspace. \
+One way is to use the upload button in the jupyter notebook environment.
+
+Wish you happy learning!
 
 ###### 💾 EOF
