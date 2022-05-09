@@ -39,13 +39,10 @@ You can do something like this when you are in the target folder on the server:
 ```
 docker build -t deep-learning .
 docker run -it --rm --gpus all --ipc=host -v $(pwd):/workspace -p 9998:9998 --name deep-learning deep-learning
-<ip-adress of your server>:9998
 ```
-Access is token based. The token is displayed when you start the container. Look for __*?token=*__.
 
-Upload the desired files to the workspace. \
-One way is to use the upload button in the jupyter notebook environment.
+Go to your browser and connect to the jupyter server with `<ip-adress of your server>:9998`.
 
-Wish you happy learning!
+Access is token based. The token is displayed when you start the container. Look for `?token=*`.
 
 ###### 💾 EOF
