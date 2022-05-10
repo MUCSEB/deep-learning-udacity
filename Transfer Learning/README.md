@@ -1,2 +1,3 @@
+## Setup Instructions
 - Download the flower images from here: https://s3.amazonaws.com/video.udacity-data.com/topher/2018/September/5baa60a0_flower-photos/flower-photos.zip
-- Unzip the images into a folder called <flower_fotos>, which is in the same folder as the notebook
+- Unzip the images into a folder called <flower_fotos> and put it into the same folder as the notebook
