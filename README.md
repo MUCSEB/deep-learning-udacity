@@ -9,6 +9,7 @@ This repository is about my lessons learned during the nanodegree. Feel free to 
 If you are about to follow the course, it may help you to see a possible solution.
 
 My favorite is the transfer learning part. I added an additional folder where tweaked code for gpu support can be found. \
+Moreover, I really enjoyed the style transfer. I added an extra folder for this as well. \
 You can supply your own images (style and target) and see what kind of art you can create :)
 
 ## How to run the code locally?
