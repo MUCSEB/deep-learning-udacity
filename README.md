@@ -44,6 +44,6 @@ docker run -it --rm --gpus all --ipc=host -v $(pwd):/workspace -p 9998:9998 --na
 
 Go to your browser and connect to the jupyter server with `<ip-adress of your server>:9998`.
 
-Access is token based. The token is displayed when you start the container. Look for `?token=*`.
+Access is token based. The token is displayed when you start the container. Look for the `?token=` sequence and copy the token.
 
 ###### 💾 EOF
