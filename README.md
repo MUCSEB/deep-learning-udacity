@@ -10,7 +10,7 @@ If you are about to follow the course, it may help you to see a possible solutio
 
 My favorite is the transfer learning part. I added an additional folder where tweaked code for gpu support can be found. \
 Moreover, I really enjoyed the style transfer. I added an extra folder for this as well. \
-You can supply your own images (style and target) and see what kind of art you can create :)
+You can supply your own images (style and target) and see what kind of art you can create :).
 
 ## How to run the code locally?
 - Create a virtual environment with all required libraries.
@@ -28,7 +28,7 @@ You can find the environment.yml in this repo as well.
 
 ## How to run the code on a server?
 Alternatively, you can also run jupyter notebook inside a container on a server (possibly with multiple gpus).
-I assume you have docker installed.
+I assume you have docker installed. If you are new to docker, you can start [here](https://docker-curriculum.com/).
 
 - Upload Dockerfile and requirement.txt to server. Choose a folder to work in.
 - Build docker image.
