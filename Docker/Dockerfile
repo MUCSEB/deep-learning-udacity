@@ -7,6 +7,10 @@ WORKDIR /usr/src/workspace
 # copy the dependencies file to the working directory
 COPY requirements.txt ./
 
+# install packages
+RUN apt-get -y update
+RUN apt-get -y install pandoc
+
 # install dependencies
 RUN pip install -r requirements.txt
 
