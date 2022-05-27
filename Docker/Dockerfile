@@ -11,4 +11,4 @@ COPY requirements.txt ./
 RUN pip3 install -r requirements.txt
 
 # command to run on container start
-CMD jupyter notebook "--no-browser" "--port=9998" "--ip=0.0.0.0" "--allow-root"
+CMD jupyter notebook "--no-browser" "--port=9998" "--ip=0.0.0.0" "--allow-root" "--NotebookApp.iopub_data_rate_limit=1.0e11" 
