@@ -39,7 +39,7 @@ You can do something like this when you are in the target folder on the server:
 
 ```
 docker build -t deep-learning .
-docker run -it --rm --gpus all --ipc=host -v $(pwd):/workspace -p 9998:9998 --name deep-learning deep-learning
+docker run -it --rm --gpus all --ipc=host -v $(pwd):/usr/src/workspace -p 9998:9998 --name deep-learning deep-learning
 ```
 
 Go to your browser and connect to the jupyter server with `<ip-adress of your server>:9998`.

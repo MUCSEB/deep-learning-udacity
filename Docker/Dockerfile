@@ -12,7 +12,7 @@ RUN apt-get -y update
 RUN apt-get -y install pandoc
 
 # install dependencies
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 # command to run on container start
 CMD jupyter notebook "--no-browser" "--port=9998" "--ip=0.0.0.0" "--allow-root"
