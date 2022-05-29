@@ -1,7 +1,8 @@
+torchinfo
 jupyter
 pillow
 opencv-python
 numpy
 pandas
 matplotlib
-
+scikit-learn
