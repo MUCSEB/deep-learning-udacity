@@ -24,7 +24,7 @@ conda env create -f environment.yml
 conda activate deep-learning
 jupyter notebook
 ```
-You can find the environment.yml in this repo as well.
+You will find the environment.yml in this repo as well.
 
 ## How to run the code on a server?
 Alternatively, you can also run jupyter notebook inside a container on a server (possibly with multiple gpus).
