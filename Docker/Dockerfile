@@ -1,5 +1,5 @@
 # set base image 
-FROM pytorch/pytorch
+FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime
 
 # set the working directory in the container
 WORKDIR /usr/src/workspace
