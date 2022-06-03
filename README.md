@@ -6,10 +6,11 @@
 ## What is the aim of the repository?
 
 This repository is about my lessons learned during the nanodegree. Feel free to look around! \
-If you are about to follow the course, it may help you to see a possible solution.
+If you are about to follow the course, it may help you to see a possible solution.\
+Do not copy and paste!
 
 My favorite is the transfer learning part. I added an additional folder where tweaked code for gpu support can be found. \
-Moreover, I really enjoyed the style transfer. I added an extra folder for this as well. \
+Moreover, I really enjoyed style transfer. An extra folder is added for this as well. \
 You can supply your own images (style and target) and see what kind of art you can create :).
 
 ## How to run the code locally?
@@ -25,6 +26,8 @@ conda activate deep-learning
 jupyter notebook
 ```
 You will find the environment.yml in this repo as well.
+
+:computer: Last tested 2022/06/04 on Windows 10 Home with Conda  4.12.0
 
 ## How to run the code on a server?
 Alternatively, you can also run jupyter notebook inside a container on a server (possibly with multiple gpus).
@@ -46,4 +49,5 @@ Go to your browser and connect to the jupyter server with `<ip-adress of your se
 
 Access is token based. The token is displayed when you start the container. Look for the `?token=` sequence and copy the token.
 
+:computer: Last tested 2022/06/04 on Ubuntu 18.04.6 LTS with Docker 20.10.14
 ###### 💾 EOF
