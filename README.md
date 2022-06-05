@@ -12,7 +12,7 @@ Do not copy and paste to pass the projects!
 My favorite is the transfer learning part. I added a folder where tweaked code for GPU support can be found.
 
 Moreover, I really enjoyed style transfer. An extra folder is added for this as well. \
-You can supply your images (style and target) and see what kind of art you can create :).
+You can supply your images (style and target) and see what kind of art you can create :smiley:
 
 ## How to run the code locally?
 - Create a virtual environment with all required libraries.
