@@ -2,9 +2,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.ipynb_checkpoints
+**/*.ipynb_checkpoints/
 
-#project 2 images
+#project 2
 **/landmark_images/
 **/ignore.pt
 **/model_scratch.pt
 **/model_transfer.pt
+
+#project 3 
+**/trained_rnn.pt
