@@ -12,3 +12,7 @@ __pycache__/
 
 #project 3 
 **/trained_rnn.pt
+
+# project 4
+**/processed_celeba_small.zip
+**/processed_celeba_small
